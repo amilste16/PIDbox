@@ -13,3 +13,12 @@ A couple of codes for the circuit to know what to do with certain wires.
 A code that will turn on an LED that will on when the box is on. (Optional)
 ---
 [Planning Doc](https://docs.google.com/document/d/1k4LJgq82fT34C9mZyrUpwUVt9hEWU7Jjr8YUoJkSeJ4/edit?usp=sharing)
+
+# Code for LCD
+
+from lcd.lcd import LCD
+from lcd.i2c_pcf8574_interface import I2CPCF8574Interface
+# some LCDs are 0x3f... some are 0x27.
+lcd = LCD(I2CPCF8574Interface(0x3f), num_rows=2, num_cols=16)
+
+lcd.print("Hello, Engineer!")
