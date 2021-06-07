@@ -1,5 +1,5 @@
 # CAD
-[The Prototype in Onshape] I kinda went ham on it, so I probably only need to tweak a few things before it's done.
+[The Prototype in Onshape] I kinda went ham on it, so I probably only need to tweak a few things before it's done. (I actually had to redo the whole thing T-T)
 
 ![image](https://user-images.githubusercontent.com/60236713/121033188-f6c4e080-c779-11eb-812c-8172e47d30c3.png)
 ---
